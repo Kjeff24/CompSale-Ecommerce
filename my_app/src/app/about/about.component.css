@@ -4,7 +4,6 @@
   background-position: center;
   padding-top: 30px;
 }
-
 .block-16 figure {
   position: relative;
 }
@@ -33,7 +32,3 @@
   -ms-transform: translate(-50%, -45%);
   transform: translate(-50%, -45%);
 }
-
-.text-justify {
-    text-align: justify;
-  }

@@ -1,16 +1,24 @@
 <div>
-    <app-header></app-header>
-    <!-- Mini-nav-starts  -->
-    <div class="bg-light py-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 mb-0">
-              <a [routerLink]="['']" class="fw-bold text-decoration-none mini-nav-link">Home</a>
-              <span class="mx-2 mb-0">/ Store</span>
-            </div>
-          </div>
+  <app-header></app-header>
+  <!-- Mini-nav-starts  -->
+  <div class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-0">
+          <a
+            [routerLink]="['']"
+            class="fw-bold text-decoration-none mini-nav-link"
+            >Home</a
+          >
+          <span class="mx-2 mb-0">/ Store</span>
         </div>
       </div>
-      <!-- Mini-nav-ends  -->
-    <app-footer></app-footer>
+    </div>
+  </div>
+  <!-- Mini-nav-ends  -->
+  
+  <!-- Product-starts  -->
+  <app-product-card-list></app-product-card-list>
+  <!-- Product-ends  -->
+  <app-footer></app-footer>
 </div>

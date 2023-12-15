@@ -6,41 +6,47 @@ import { LoginSignupComponent } from './login-signup/login-signup.component';
 import { CartComponent } from './cart/cart.component';
 import { StoreComponent } from './store/store.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 export const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'Home Page',
+    title: 'CompSales | Home',
   },
   {
     path: 'store',
     component: StoreComponent,
-    title: 'Store Page',
+    title: 'CompSales | Store',
   },
   {
     path: 'about',
     component: AboutComponent,
-    title: 'About Page',
+    title: 'CompSales | About',
   },
   {
     path: 'contact',
     component: ContactComponent,
-    title: 'Contact Page',
+    title: 'CompSales | Contact',
   },
   {
     path: 'login-signup',
     component: LoginSignupComponent,
-    title: 'Login/Signup Page',
+    title: 'CompSales | Login/Signup',
   },
   {
     path: 'cart',
     component: CartComponent,
-    title: 'Cart Page',
+    title: 'CompSales | Cart',
   },
   {
     path: 'thankyou',
     component: ThankyouComponent,
-    title: 'Thankyou Page',
+    title: 'CompSales | Thankyou',
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent,
+    title: 'CompSales | Checkout',
   },
 ];
