@@ -1,0 +1,21 @@
+.site-block-cover{
+    background-image: url("../../assets/accessories-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.banner-wrap {
+    position: relative;
+    border-radius: 5px;
+    top: -30px;
+    padding: 20px;
+}
+
+.banner-wrap a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
