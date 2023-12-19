@@ -20,7 +20,7 @@ npm install
 ```
 - Run server
 ```
-ng server
+ng serve
 ```
 - Since product items is in `db.json`, install `json-server`
 ```
